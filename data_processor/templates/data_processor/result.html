@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Processed File</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Processed File</h1>
+        <a href="{{ output_file }}">Download Output File</a>
+        <h2>Plot</h2>
+        <img src="data:image/png;base64,{{ plot }}" alt="Plot">
+    </div>
+</body>
+</html>

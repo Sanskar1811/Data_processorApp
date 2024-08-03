@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem; /* Adjusted to be more responsive */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Light grey background */
+    color: #343a40; /* Dark grey text */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #495057; /* Slightly darker grey */
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue for hover */
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for a subtle effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #495057; /* Consistent color with headings */
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ced4da; /* Lighter grey border */
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Bootstrap success color */
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for a subtle effect */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
